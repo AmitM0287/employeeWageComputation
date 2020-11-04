@@ -38,4 +38,5 @@ do
         else
                 dailyWage=0
         fi
+	totalWage=`expr $totalWage + $dailyWage`
 done
