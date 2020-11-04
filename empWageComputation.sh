@@ -38,5 +38,7 @@ do
         else
                 dailyWage=0
         fi
-	totalWage=`expr $totalWage + $dailyWage`
+
+        totalWage=`expr $totalWage + $dailyWage`
+        echo "Day $i            $dailyWage               $totalWage"
 done
