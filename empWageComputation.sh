@@ -16,4 +16,8 @@ attendence()
 }
 
 wageHour=20
+fullDay=8
+halfDay=4
+totalWage=0
 dailyWage=0
+
