@@ -21,7 +21,10 @@ halfDay=4
 totalWage=0
 dailyWage=0
 
- 	attendence
+echo "Day No.       DailyWage       TotalWage   "
+for (( i=1; i<=30; i++ ))
+do
+        attendence
         n=$?
         if [ $n -eq 1 ]
         then
@@ -35,3 +38,4 @@ dailyWage=0
         else
                 dailyWage=0
         fi
+done
