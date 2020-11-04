@@ -14,3 +14,6 @@ attendence()
                 return 0        #Absent
         fi
 }
+
+wageHour=20
+dailyWage=0
